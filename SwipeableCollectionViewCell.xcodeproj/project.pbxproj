@@ -13,10 +13,14 @@
 		303A27481E9E1C9A00D3E4F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303A27461E9E1C9A00D3E4F7 /* Main.storyboard */; };
 		303A274A1E9E1C9A00D3E4F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303A27491E9E1C9A00D3E4F7 /* Assets.xcassets */; };
 		303A274D1E9E1C9A00D3E4F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303A274B1E9E1C9A00D3E4F7 /* LaunchScreen.storyboard */; };
+		303A27561E9E212A00D3E4F7 /* SwipeableBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 303A27551E9E212A00D3E4F7 /* SwipeableBaseCollectionViewCell.m */; };
+		303A275D1E9F998100D3E4F7 /* SwipeableCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 303A275C1E9F998100D3E4F7 /* SwipeableCollectionViewCell.m */; };
+		303A27601E9FAA7B00D3E4F7 /* SwipeableButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 303A275F1E9FAA7B00D3E4F7 /* SwipeableButtonView.m */; };
+		303A27621E9FAA8A00D3E4F7 /* SwipeableButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 303A27611E9FAA8A00D3E4F7 /* SwipeableButtonView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		303A273A1E9E1C9A00D3E4F7 /* SwipeCollectionViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeCollectionViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		303A273A1E9E1C9A00D3E4F7 /* SwipeableCollectionViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeableCollectionViewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		303A273E1E9E1C9A00D3E4F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		303A27401E9E1C9A00D3E4F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		303A27411E9E1C9A00D3E4F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +30,13 @@
 		303A27491E9E1C9A00D3E4F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		303A274C1E9E1C9A00D3E4F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		303A274E1E9E1C9A00D3E4F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		303A27541E9E212A00D3E4F7 /* SwipeableBaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeableBaseCollectionViewCell.h; sourceTree = "<group>"; };
+		303A27551E9E212A00D3E4F7 /* SwipeableBaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeableBaseCollectionViewCell.m; sourceTree = "<group>"; };
+		303A275B1E9F998100D3E4F7 /* SwipeableCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeableCollectionViewCell.h; sourceTree = "<group>"; };
+		303A275C1E9F998100D3E4F7 /* SwipeableCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeableCollectionViewCell.m; sourceTree = "<group>"; };
+		303A275E1E9FAA7B00D3E4F7 /* SwipeableButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeableButtonView.h; sourceTree = "<group>"; };
+		303A275F1E9FAA7B00D3E4F7 /* SwipeableButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeableButtonView.m; sourceTree = "<group>"; };
+		303A27611E9FAA8A00D3E4F7 /* SwipeableButtonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwipeableButtonView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +61,7 @@
 		303A273B1E9E1C9A00D3E4F7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				303A273A1E9E1C9A00D3E4F7 /* SwipeCollectionViewTest.app */,
+				303A273A1E9E1C9A00D3E4F7 /* SwipeableCollectionViewCell.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,6 +73,13 @@
 				303A27411E9E1C9A00D3E4F7 /* AppDelegate.m */,
 				303A27431E9E1C9A00D3E4F7 /* ViewController.h */,
 				303A27441E9E1C9A00D3E4F7 /* ViewController.m */,
+				303A27541E9E212A00D3E4F7 /* SwipeableBaseCollectionViewCell.h */,
+				303A27551E9E212A00D3E4F7 /* SwipeableBaseCollectionViewCell.m */,
+				303A275B1E9F998100D3E4F7 /* SwipeableCollectionViewCell.h */,
+				303A275C1E9F998100D3E4F7 /* SwipeableCollectionViewCell.m */,
+				303A275E1E9FAA7B00D3E4F7 /* SwipeableButtonView.h */,
+				303A275F1E9FAA7B00D3E4F7 /* SwipeableButtonView.m */,
+				303A27611E9FAA8A00D3E4F7 /* SwipeableButtonView.xib */,
 				303A27461E9E1C9A00D3E4F7 /* Main.storyboard */,
 				303A27491E9E1C9A00D3E4F7 /* Assets.xcassets */,
 				303A274B1E9E1C9A00D3E4F7 /* LaunchScreen.storyboard */,
@@ -82,9 +100,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		303A27391E9E1C9A00D3E4F7 /* SwipeCollectionViewTest */ = {
+		303A27391E9E1C9A00D3E4F7 /* SwipeableCollectionViewCell */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 303A27511E9E1C9A00D3E4F7 /* Build configuration list for PBXNativeTarget "SwipeCollectionViewTest" */;
+			buildConfigurationList = 303A27511E9E1C9A00D3E4F7 /* Build configuration list for PBXNativeTarget "SwipeableCollectionViewCell" */;
 			buildPhases = (
 				303A27361E9E1C9A00D3E4F7 /* Sources */,
 				303A27371E9E1C9A00D3E4F7 /* Frameworks */,
@@ -94,9 +112,9 @@
 			);
 			dependencies = (
 			);
-			name = SwipeCollectionViewTest;
+			name = SwipeableCollectionViewCell;
 			productName = SwipeCollectionViewTest;
-			productReference = 303A273A1E9E1C9A00D3E4F7 /* SwipeCollectionViewTest.app */;
+			productReference = 303A273A1E9E1C9A00D3E4F7 /* SwipeableCollectionViewCell.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +133,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 303A27351E9E1C9A00D3E4F7 /* Build configuration list for PBXProject "SwipeCollectionViewTest" */;
+			buildConfigurationList = 303A27351E9E1C9A00D3E4F7 /* Build configuration list for PBXProject "SwipeableCollectionViewCell" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -128,7 +146,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				303A27391E9E1C9A00D3E4F7 /* SwipeCollectionViewTest */,
+				303A27391E9E1C9A00D3E4F7 /* SwipeableCollectionViewCell */,
 			);
 		};
 /* End PBXProject section */
@@ -141,6 +159,7 @@
 				303A274D1E9E1C9A00D3E4F7 /* LaunchScreen.storyboard in Resources */,
 				303A274A1E9E1C9A00D3E4F7 /* Assets.xcassets in Resources */,
 				303A27481E9E1C9A00D3E4F7 /* Main.storyboard in Resources */,
+				303A27621E9FAA8A00D3E4F7 /* SwipeableButtonView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,9 +170,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				303A275D1E9F998100D3E4F7 /* SwipeableCollectionViewCell.m in Sources */,
+				303A27561E9E212A00D3E4F7 /* SwipeableBaseCollectionViewCell.m in Sources */,
 				303A27451E9E1C9A00D3E4F7 /* ViewController.m in Sources */,
 				303A27421E9E1C9A00D3E4F7 /* AppDelegate.m in Sources */,
 				303A273F1E9E1C9A00D3E4F7 /* main.m in Sources */,
+				303A27601E9FAA7B00D3E4F7 /* SwipeableButtonView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +320,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		303A27351E9E1C9A00D3E4F7 /* Build configuration list for PBXProject "SwipeCollectionViewTest" */ = {
+		303A27351E9E1C9A00D3E4F7 /* Build configuration list for PBXProject "SwipeableCollectionViewCell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				303A274F1E9E1C9A00D3E4F7 /* Debug */,
@@ -307,13 +329,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		303A27511E9E1C9A00D3E4F7 /* Build configuration list for PBXNativeTarget "SwipeCollectionViewTest" */ = {
+		303A27511E9E1C9A00D3E4F7 /* Build configuration list for PBXNativeTarget "SwipeableCollectionViewCell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				303A27521E9E1C9A00D3E4F7 /* Debug */,
 				303A27531E9E1C9A00D3E4F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
